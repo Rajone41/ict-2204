@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sec1{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(e\ learning.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.navbar{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo-area{
+    display: flex;
+    justify-content: space-between;
+}
+.logo-area a{
+    padding-left: 25px;
+    padding-right: 15px;
+    padding-top: 5px;
+}
+.logo-area h1{
+    color: white;
+}
+.menu{
+    width: 40%;
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+.menu ul li a:hover{
+    color: tomato;
+}
+.btns{
+    width: 18%;
+    display: flex;
+    justify-content: space-around;
+}
+.btn1{
+    width: 60px;
+    height: 30px;
+    border-radius: 10px;
+    color: white;
+    background: orangered;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    transition: 0.3s ease-in-out;
+}
+.btn1:hover{
+    color: white;
+}
+.btn2{
+    width: 60px;
+    border-radius: 10px;
+    background: transparent;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border-block: 2px;
+}
+.home{
+    height: 500px;
+    padding: 80px;
+}
+.title-1{
+    font-size:60px ;
+    color: white;
+    font-weight: 600;
+    word-spacing: 2px;
+}
+.home p{
+    width: 500px;
+    padding-bottom: 10px;
+    color: rgb(34, 34, 202);
+    font-size: 20px;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.home button{
+    height: 40px;
+    color: white;
+    background: rgb(34,34, 202);
+    padding: 5px 30px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: .4s ease-in-out;
+}
+.home button:hover{
+    color:black;
+}
+.domain{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: -100px;
+    text-decoration: none;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+.domain-col1{
+    background-color:white;
+    border-radius: 10px;
+    padding: 20px 12px;
+    margin-top: -50px;
+
+    text-decoration: none;
+}
+.domain-col1:hover{
+    box-shadow: 0px 0px 20px 0px;
+}
+.domain-col2{
+    background-color:white;
+    border-radius: 10px;
+    padding: 20px 12px;
+    margin-top:-50px;
+}
+.domain-col2:hover{
+    box-shadow: 5px 0px 20px 0px;
+}
+.domain-col3{
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px 12px;
+    margin-top: -50px;
+}
+.domain-col3:hover{
+    box-shadow: 4px 2px 20px 0px;
+}
+.head{
+    margin-top: 10px;
+}
+.head h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.one{
+    height: 150px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.two{
+    height: 150px;
+    margin: 10px;
+    border-radius: 10px;
+}
